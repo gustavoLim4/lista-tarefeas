@@ -50,6 +50,12 @@ input:focus,
 textarea:focus,
 select:focus {
   outline: none;
+  font-size: 16px;
+}
+input,
+textarea,
+select {
+  font-size: 16px;
 }
 
 .inserir button {
