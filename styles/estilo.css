@@ -97,7 +97,7 @@ nav ul {
   padding: 10px 15px 10px 15px;
 }
 span {
-  font-size: 1.4em
+  font-size: 1.4em;
 }
 
 .btn-fechar {
@@ -108,3 +108,5 @@ span {
   border-radius: 2px;
   font-weight: bolder;
 }
+
+

@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+  .inserir {
+    gap: 20px;
+    margin: 40px 28px;
+  }
+  .inserir input {
+    width: 80%;
+  }
+  .inserir button {
+    width: 25%;
+  }
+  nav {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 425px) {
+  nav {
+    padding: 0 15px;
+  }
+  .links-container input {
+    width: 220px;
+  }
+  nav h1 {
+    font-size: 0.9em;
+  }
+  .inserir {
+    margin: 25px 15px;
+    gap: 10px;
+  }
+  .inserir input {
+    width: 75%;
+  }
+  .inserir button {
+    width: 30%;
+  }
+  .tarefas-cont h1 {
+    font-size: 1.1em;
+  }
+  span {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 375px) {
+  nav {
+    padding: 0 10px;
+  }
+  nav h1 {
+    font-size: 0.9em;
+  }
+  .inserir {
+    margin: 25px 12px;
+    gap: 15px;
+  }
+  .links-container input {
+    width: 185px;
+  }
+  .inserir input {
+    width: 75%;
+  }
+  .inserir button {
+    width: 30%;
+  }
+  span {
+    font-size: 1em;
+  }
+}
+@media (max-width: 320px) {
+  nav {
+    padding: 0 10px;
+  }
+  nav h1 {
+    font-size: 0.8em;
+  }
+  .inserir {
+    margin: 25px 12px;
+    gap: 5px;
+  }
+  .links-container input {
+    width: 160px;
+  }
+  span {
+    font-size: 1em;
+  }
+}
