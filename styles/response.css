@@ -1,4 +1,21 @@
+@media (max-width: 1024px) {
+  nav {
+    padding: 0 35px;
+  }
+  .links-container input {
+    width: 420px;
+  }
+  .inserir button {
+    width: 25%;
+  }
+  .inserir {
+    margin: 40px 35px;
+  }
+}
 @media (max-width: 768px) {
+  .links-container input {
+    width: 320px;
+  }
   .inserir {
     gap: 20px;
     margin: 40px 28px;
@@ -11,6 +28,18 @@
   }
   nav {
     padding: 0 30px;
+  }
+}
+@media (max-width: 540px) {
+  .links-container input {
+    width: 240px;
+  }
+  nav {
+    padding: 0 15px;
+  }
+  .inserir {
+    gap: 10px;
+    margin: 40px 20px;
   }
 }
 @media (max-width: 425px) {

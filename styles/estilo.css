@@ -46,6 +46,11 @@ nav ul {
   border-radius: 5px;
   border: 2px solid var(--corprincipal);
 }
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
 
 .inserir button {
   background-color: var(--corprincipal);
@@ -108,5 +113,3 @@ span {
   border-radius: 2px;
   font-weight: bolder;
 }
-
-
