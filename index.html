@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/icon-tarefa.png">
+    <link rel="stylesheet" href="styles/estilo.css" />
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <nav>
+            <h1>Listagem de tarefas.</h1>
+            <ul class="links-container">
+              <input type="text" id="pesquisar" placeholder="pesquisar" />
+            </ul>
+          </nav>
+        </header>
+
+        <form >
+          <div class="inserir">
+            <input
+              type="text"
+              id="tituloInput"
+              placeholder="Adicionar nova tarefa"
+            />
+            <button id="btnAdd">Adicionar Tarefa</button>
+          </div>
+        </form>
+        <div class="tarefas-cont">
+          <h1>Minhas terefas</h1>
+          <div class="terefa-container">
+            <div id="dados"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/js.js"></script>
+  </body>
+</html>

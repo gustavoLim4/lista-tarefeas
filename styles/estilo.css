@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --branco: #fff;
+  --corsecundaria: #2a2d64;
+  --corprincipal: #151632;
+}
+nav {
+  display: flex;
+  background-color: var(--corprincipal);
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 45px;
+}
+
+nav h1 {
+  color: var(--branco);
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.links-container input {
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  width: 300px;
+}
+.inserir {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 50px 42px;
+}
+.inserir input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid var(--corprincipal);
+}
+
+.inserir button {
+  background-color: var(--corprincipal);
+  width: 10%;
+  border: 0;
+  border-radius: 5px;
+  color: var(--branco);
+}
+.inserir button:hover {
+  background-color: var(--corsecundaria);
+  transition: 0.5s ease-in-out;
+}
+.tarefas-cont h1 {
+  display: flex;
+  justify-content: center;
+  background-color: var(--corprincipal);
+  width: 94%;
+  margin: 0 auto;
+  padding: 10px;
+  color: var(--branco);
+  border-radius: 10px 10px 0 0;
+}
+.terefa-container {
+  width: 94%;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid var(--corprincipal);
+  margin: 0 auto;
+  height: 350px;
+  overflow-y: auto;
+}
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+#dados {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nova-tarefa {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--corprincipal);
+  padding: 10px 15px 10px 15px;
+}
+span {
+  font-size: 1.4em
+}
+
+.btn-fechar {
+  border: 0;
+  padding: 5px 8px 5px 7px;
+  background: rgb(209, 43, 43);
+  color: #fff;
+  border-radius: 2px;
+  font-weight: bolder;
+}
