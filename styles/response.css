@@ -47,7 +47,7 @@
     padding: 0 15px;
   }
   .links-container input {
-    width: 220px;
+    width: 205px;
   }
   nav h1 {
     font-size: 0.9em;
@@ -57,7 +57,7 @@
     gap: 10px;
   }
   .inserir input {
-    width: 75%;
+    width: 70%;
   }
   .inserir button {
     width: 30%;
